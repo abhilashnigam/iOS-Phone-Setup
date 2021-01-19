@@ -108,7 +108,7 @@ else
         echo $insPack
 fi
 
-insPack=$(installPackage "Flex_3_Beta" "flex3beta")
+insPack=$(installPackage "Flex_3_Beta" "com.johncoates.flex3")
 echo $insPack
 
 insPack=$(installPackage "ADV_Cmd" "adv-cmds")
