@@ -81,6 +81,7 @@ echo "deb http://rpetri.ch/repo/ ./" | tee -a /var/mobile/Library/Caches/com.sau
 echo "deb http://apt.modmyi.com/ stable main" | tee -a /var/mobile/Library/Caches/com.saurik.Cydia/sources.list
 echo "deb https://repo.dynastic.co/ ./" | tee -a /var/mobile/Library/Caches/com.saurik.Cydia/sources.list
 echo "deb https://repo.chariz.com/ ./" | tee -a /var/mobile/Library/Caches/com.saurik.Cydia/sources.list
+echo "deb https://ryleyangus.com/repo/ ./" | tee -a /var/mobile/Library/Caches/com.saurik.Cydia/sources.list
 echo "deb https://build.frida.re/ ./" | tee -a /var/mobile/Library/Caches/com.saurik.Cydia/sources.list
 echo "deb http://cydia.zodttd.com/repo/cydia/ stable main" | tee -a /var/mobile/Library/Caches/com.saurik.Cydia/sources.list
 
@@ -144,6 +145,8 @@ echo $insPack
 insPack=$(installPackage "iDrill" "idrill")
 echo $insPack
 
+insPack=$(installPackage "LibertyLite" "com.ryleyangus.libertylite")
+echo $insPack
 
 wget https://github.com/nabla-c0d3/ssl-kill-switch2/releases/download/0.14/com.nablac0d3.sslkillswitch2_0.14.deb -O sslkillswitch.deb -q
 dpkg -i sslkillswitch.deb > /tmp/a 2>/dev/null
