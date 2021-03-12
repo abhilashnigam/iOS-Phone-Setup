@@ -142,7 +142,7 @@ echo $insPack
 insPack=$(installPackage "WGET" "wget")
 echo $insPack
 
-insPack=$(installPackage "iDrill" "idrill")
+insPack=$(installPackage "iDrill" "com.abhilashnigam.idrill")
 echo $insPack
 
 insPack=$(installPackage "LibertyLite" "com.ryleyangus.libertylite")
