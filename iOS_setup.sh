@@ -76,7 +76,7 @@ echo "deb https://apt.bingner.com/ ./" | tee -a /var/mobile/Library/Caches/com.s
 echo "deb http://apt.thebigboss.org/repofiles/cydia/ stable main" | tee -a /var/mobile/Library/Caches/com.saurik.Cydia/sources.list
 echo "deb https://cydia.akemi.ai/ ./" | tee -a /var/mobile/Library/Caches/com.saurik.Cydia/sources.list
 echo "deb http://getdelta.co/ ./" | tee -a /var/mobile/Library/Caches/com.saurik.Cydia/sources.list
-echo "deb https://abhilashnigam.github.io/iDrill/ ./" | tee -a /var/mobile/Library/Caches/com.saurik.Cydia/sources.list
+echo "deb https://localh0st.xyz/iDrill/ ./" | tee -a /var/mobile/Library/Caches/com.saurik.Cydia/sources.list
 echo "deb http://rpetri.ch/repo/ ./" | tee -a /var/mobile/Library/Caches/com.saurik.Cydia/sources.list
 echo "deb http://apt.modmyi.com/ stable main" | tee -a /var/mobile/Library/Caches/com.saurik.Cydia/sources.list
 echo "deb https://repo.dynastic.co/ ./" | tee -a /var/mobile/Library/Caches/com.saurik.Cydia/sources.list
